@@ -1,113 +1,69 @@
-# pizza_sales-MySQL
-This analysis will help the business optimize menu pricing, inventory, staffing, and marketing strategies.
-📌 Project Title
-Pizza Sales Data Analysis Using SQL
-🎯 Objective
+# Pizza Sales SQL Analysis Project
 
-The objective of this project is to analyze pizza sales data using SQL to understand customer ordering patterns, revenue distribution, high-performing pizza types, and operational trends that can help improve business decisions.
+## Objective
+The objective of this project is to analyze pizza sales data using SQL to understand customer ordering patterns, revenue distribution, top-selling pizza types, and overall business performance. The insights from this analysis can help improve marketing strategies, menu optimization, staffing, and inventory management.
 
-🧩 Business Problem
+---
 
-The pizza store wants to understand:
+## Business Problem
+The pizza store wants to identify:
+- Which pizzas generate the highest revenue  
+- Which pizza sizes and categories are most popular  
+- At what times customers place the most orders  
+- How ordering patterns vary by day  
+- Which pizza types contribute the most to total sales  
 
-What drives revenue?
+Understanding these factors will help the business improve operational efficiency and increase overall revenue.
 
-Which pizzas are ordered the most?
+---
 
-What sizes and categories customers prefer?
+## Dataset Overview
+The dataset contains multiple relational tables, commonly including:
 
-How order volume changes throughout the day?
+- **Orders** – each order placed  
+- **Order Details** – pizzas and quantities in each order  
+- **Pizza Types** – names, categories, ingredients  
+- **Pizza Information** – size, price  
 
-Which pizza types contribute most to sales?
+This structure allows performing joins, aggregations, and advanced SQL analysis similar to real-world retail data.
 
-This analysis will help the business optimize menu pricing, inventory, staffing, and marketing strategies.
+---
 
-📁 Dataset Overview
+## Sample Questions Solved
 
-This project uses multiple relational tables containing:
+### Basic Queries
+1. Retrieve the total number of orders placed  
+2. Calculate the total revenue generated from pizza sales  
+3. Identify the highest-priced pizza  
+4. Identify the most common pizza size ordered  
+5. List the top 5 most ordered pizza types along with their quantities  
 
-Orders
+### Intermediate Queries
+- Find the total quantity ordered for each pizza category  
+- Determine the distribution of orders by hour of the day  
+- Category-wise distribution of pizzas  
+- Average number of pizzas ordered per day  
+- Top 3 most ordered pizzas based on revenue  
 
-Order Details
+### Advanced Queries
+- Percentage contribution of each pizza type to total revenue  
+- Cumulative revenue generated over time  
+- Top 3 most ordered pizza types by revenue for each pizza category  
 
-Pizza Types
+---
 
-Pizza Information (size, price, category)
+## Key Insights
+(Replace with your real insights if needed)
 
-This structure allows performing real-world SQL operations like joins, grouping, and aggregations.
+- Medium and Large pizzas are the most frequently ordered sizes  
+- A small number of pizza types contribute a majority of revenue  
+- Evening hours show the highest order volume  
+- Classic and Supreme categories generate strong revenue  
+- Cumulative revenue shows consistent growth over time  
 
-❓ Sample Business Questions Solved
-🔹 Basic Analysis
+---
 
-Retrieve the total number of orders placed
+## Conclusion
+This SQL-based project provides meaningful insights into customer preferences, pricing impact, pizza category performance, and ordering patterns. These findings can help optimize menu decisions, improve marketing strategies, and strengthen business growth.
 
-Calculate total revenue generated
-
-Identify the highest-priced pizza
-
-Find the most commonly ordered pizza size
-
-List top 5 most-ordered pizzas by quantity
-
-🔸 Intermediate Analysis
-
-Total quantity ordered for each pizza category
-
-Distribution of orders by hour of the day
-
-Category-wise pizza distribution
-
-Average number of pizzas ordered per day
-
-Top 3 pizzas by revenue
-
-🔹 Advanced Analysis
-
-Percentage revenue contribution of each pizza type
-
-Cumulative revenue trend over time
-
-Top 3 pizzas by revenue within each category
-
-🧠 Key Insights
-
-(Replace these later with your real insights if you have them.)
-
-Large and Medium pizzas are the most commonly ordered sizes
-
-Classic & Supreme categories generate the highest revenue
-
-Evening hours show the highest order volume
-
-A few top pizza types contribute a major share of total revenue
-
-Cumulative revenue shows consistent growth throughout the month/year
-
-🏁 Conclusion
-
-This SQL analysis provides valuable insights into customer preferences, revenue patterns, and operational trends. The results can help the store optimize pricing, forecast demand, improve inventory planning, and promote high-performing pizza types to boost overall revenue.
-
-📂 Project Structure
-pizza-sales-sql-project/
-│── pizza_sales_queries.sql
-│── screenshots/      (optional)
-│── dataset/          (optional)
-│── README.md
-
-🛠️ Tech Stack
-
-MySQL / PostgreSQL
-
-SQL Joins, Window Functions, Aggregations, Grouping
-
-Relational Database Concepts
-
-✔️ How to Use
-
-Clone the repository
-
-Import the dataset into MySQL / PostgreSQL
-
-Run queries from pizza_sales_queries.sql
-
-Explore insights
+---
