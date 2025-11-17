@@ -39,16 +39,16 @@ This structure allows performing joins, aggregations, and advanced SQL analysis 
 5. List the top 5 most ordered pizza types along with their quantities  
 
 ### Intermediate Queries
-- Find the total quantity ordered for each pizza category  
-- Determine the distribution of orders by hour of the day  
-- Category-wise distribution of pizzas  
-- Average number of pizzas ordered per day  
-- Top 3 most ordered pizzas based on revenue  
+1. Find the total quantity ordered for each pizza category
+2. Determine the distribution of orders by hour of the day
+3. Category-wise distribution of pizzas
+4. Average number of pizzas ordered per day
+5. Top 3 most ordered pizzas based on revenue  
 
 ### Advanced Queries
-- Percentage contribution of each pizza type to total revenue  
-- Cumulative revenue generated over time  
-- Top 3 most ordered pizza types by revenue for each pizza category  
+1. Percentage contribution of each pizza type to total revenue
+2. Cumulative revenue generated over time
+3. Top 3 most ordered pizza types by revenue for each pizza category  
 
 ---
 
